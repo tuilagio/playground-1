@@ -263,6 +263,7 @@ int main(int argc, char *argv[]) {
     }
 
     /* Simple stats */
+    /*
     while (keep_running ==1 )
     {
         unsigned long long int tested_comb = 0;
@@ -275,7 +276,7 @@ int main(int argc, char *argv[]) {
         }
         sleep(1);
     }
-    
+    */
 
     /* Join threads */
     pthread_join(gen_t_id, NULL);
